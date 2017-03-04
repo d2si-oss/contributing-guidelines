@@ -46,8 +46,6 @@ repository.
 
    ```bash
    git remote add upstream https://github.com/d2si-oss/${REPONAME}
-   git checkout master
-   git pull upstream master
    ```
 
 2. Checkout and pull from the master branch.
