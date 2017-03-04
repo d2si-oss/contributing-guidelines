@@ -11,12 +11,12 @@ Common guidelines for contributing to d2si-oss projects
    cd ${REPONAME}
    ```
 
-2. Create a feature
+2. Create a topic
    [branch](https://help.github.com/articles/creating-and-deleting-branches-within-your-repository)
    where you will add and commit your changes:
 
    ```bash
-   git checkout -b my-new-feature
+   git checkout -b topic-branch
    ```
 
 3. Commit your changes in logical and incremental chunks.
@@ -33,7 +33,7 @@ Common guidelines for contributing to d2si-oss projects
 4. Push the branch
 
    ```bash
-   git push origin my-new-feature
+   git push origin topic-branch
    ```
 
 5. [Open a Pull Request](https://help.github.com/articles/about-pull-requests)
