@@ -1,7 +1,7 @@
 # Contributing guidelines
 Common guidelines for contributing to d2si-oss projects
 
-**By contributing, you agree to the following:**
+**Contributors must agree to the following:**
 - material without explicit copyright assignment will be assigned to
 [D2SI](http://d2-si.eu)
 - apart from a few identified exceptions, material must be licensed under the
@@ -74,3 +74,10 @@ repository.
    ```
 
 Changes can then be pushed to the remote fork on GitHub.
+See [GitHub Help](https://help.github.com/articles/syncing-a-fork)
+for more information.
+
+## Members additional guidelines
+
+- [LICENSE](templates/LICENSE)
+- [CONTRIBUTING.md](templates/CONTRIBUTING.md)
