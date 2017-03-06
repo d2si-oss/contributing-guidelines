@@ -9,13 +9,28 @@ Common guidelines for contributing to d2si-oss projects
 
 ## Table of contents
 
+  * [Coding style](#coding-style)
+
+  * [Documentation](#documentation)
+
   * [Git](#git)
     * [Git workflow](#git-workflow)
     * [Syncing a fork with its upstream](#syncing-a-fork-with-its-upstream)
 
   * [Members additional guidelines](#members-additional-guidelines)
 
+## Coding style
+
+TBD
+
+## Documentation
+
+TBD
+
 ## Git
+
+Projects mostly follow the
+[GitHub flow](https://guides.github.com/introduction/flow).
 
 ### Git workflow
 
@@ -79,5 +94,6 @@ for more information.
 
 ## Members additional guidelines
 
+TBD
 - [LICENSE](templates/LICENSE)
 - [CONTRIBUTING.md](templates/CONTRIBUTING.md)
