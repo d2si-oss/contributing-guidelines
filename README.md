@@ -1,7 +1,23 @@
 # Contributing guidelines
 Common guidelines for contributing to d2si-oss projects
 
-## Git worflow
+**By contributing, you agree to the following:**
+- material without explicit copyright assignment will be assigned to
+[D2SI](http://d2-si.eu)
+- apart from a few identified exceptions, material must be licensed under the
+[ISC license](https://opensource.org/licenses/isc-license.txt)
+
+## Table of contents
+
+  * [Git](#git)
+    * [Git workflow](#git-workflow)
+    * [Syncing a fork with its upstream](#syncing-a-fork-with-its-upstream)
+
+  * [Members additional guidelines](#members-additional-guidelines)
+
+## Git
+
+### Git workflow
 
 1. [Fork](https://help.github.com/articles/fork-a-repo) the repository and clone
    it locally.
