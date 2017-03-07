@@ -23,6 +23,19 @@ Common guidelines for contributing to d2si-oss projects
 
 TBD
 
+```bash
+fmt -w 80
+```
+
+| Language / Tool | Linter                      |
+|-----------------|-----------------------------|
+| Ansible         | ansible-lint                |
+| Go              | Native Linter (compilation) |
+| JSON            | JsonLint                    |
+| PHP             | PHP-CS-Fixer                |
+| Python          | PEP8                        |
+| Terraform (HCL) | terraform fmt               |
+
 ## Documentation
 
 TBD
