@@ -17,7 +17,9 @@ Common guidelines for contributing to d2si-oss projects
     * [Git workflow](#git-workflow)
     * [Syncing a fork with its upstream](#syncing-a-fork-with-its-upstream)
 
-  * [Members additional guidelines](#members-additional-guidelines)
+  * [Additional guidelines](#additional-guidelines)
+    * [D2SI consultants](#d2si-consultants)
+    * [Organization members](#organization-members)
 
 ## Coding style
 
@@ -105,7 +107,13 @@ Changes can then be pushed to the remote fork on GitHub.
 See [GitHub Help](https://help.github.com/articles/syncing-a-fork)
 for more information.
 
-## Members additional guidelines
+## Additional guidelines
+
+### D2SI consultants
+
+TBD
+
+### Organization members
 
 TBD
 - [LICENSE](templates/LICENSE)
