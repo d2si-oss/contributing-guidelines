@@ -4,9 +4,11 @@ Common guidelines for contributing to d2si-oss projects
 ## TL;DR
 We want to make contributing straighforward and easy for everyone. As such and
 unless otherwise stated we are following the
-[GitHub flow](https://guides.github.com/introduction/flow).
-If you are familiar with GitHub (and Git), branching, opening a pull request or
-an issue... then you should be able to start contributing right away.
+[GitHub flow](https://guides.github.com/introduction/flow). All commits must be
+made to a topic branch in a local fork and submitted via a pull request before
+it can be merged.  
+If you are familiar with GitHub (and Git), branching and opening a pull request
+or an issue... then you should be able to start contributing right away.
 
 **Contributors must agree to the following:**
 - material without explicit copyright assignment will be assigned to
@@ -64,6 +66,8 @@ Substential contribution must always come with exhaustive documentation. We
 consider documentation as important as code.
 
 ## Git
+
+The **master** branch should be considered as a production|deploy branch.
 
 ### Workflow
 
@@ -140,9 +144,13 @@ the global contributions workflow.
 ### Organization owners
 
 Organization owners have full control over the d2si-oss organization and are the
-only one with repository creation rights.
+only one with repository creation rights.  
+They can also dismiss the requirement of opening a pull request to commit
+something but that is only done on rare exceptions.
 
 #### Creating a new repository
+
+Note that status checks (Travis etc.) are not a requirement.
 
 1. Go to the top level URL of the
   [d2si-oss organization](https://github.com/d2si-oss)
@@ -150,13 +158,23 @@ only one with repository creation rights.
 2. Click on [**New**] then:
   * Make sure the **Owner** is set to d2si-oss
   * Give it a meaningful **Repository name** and **Description**
-  * Check **Initialize this repository with a README** and click on [**Create
-    repository**]
+  * Check the **Initialize this repository with a README** box and click on
+    [**Create repository**]
 
-3. Go to **Settings** and uncheck **Wikis**
+3. Click on **Add topics** and add a few descriptive tags then click on
+   [**Done**].
 
-4. Go to **Collaborators & teams** tab and add the project submitter username to
-   the **Collaborators** list
+4. Go to **Settings** and uncheck the **Wikis** box
 
-5. Add the default [LICENSE](templates/LICENSE) and
+5. Go to **Collaborators & teams** tab and add the project submitter username to
+   the **Collaborators** list (even if the submitter is an organization
+   owner/member)
+
+6. Go to the **Branches** tab and select **master** under the **Protected
+   branches** section
+
+7. Check **Protect this branch** and **Require pull request reviews before
+   merging** boxes then [**Save changes**]
+
+8. Add the default [LICENSE](templates/LICENSE) and
    [CONTRIBUTING.md](templates/CONTRIBUTING.md) files to the repository
