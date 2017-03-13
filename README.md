@@ -155,8 +155,8 @@ only one with repository creation rights.
 
 3. Go to **Settings** and uncheck **Wikis**
 
-4. Go to **Collaborators & teams** and add the project submitter username to the
-   **Collaborators** list
+4. Go to **Collaborators & teams** tab and add the project submitter username to
+   the **Collaborators** list
 
 5. Add the default [LICENSE](templates/LICENSE) and
    [CONTRIBUTING.md](templates/CONTRIBUTING.md) files to the repository
