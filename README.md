@@ -4,9 +4,9 @@ Common guidelines for contributing to d2si-oss projects
 ## TL;DR
 We want to make contributing straighforward and easy for everyone. As such and
 unless otherwise stated we are following the
-[GitHub flow](https://guides.github.com/introduction/flow). All commits must be
+[GitHub flow](https://guides.github.com/introduction/flow): any commit must be
 made to a topic branch in a local fork and submitted via a pull request before
-it can be merged.  
+it can can be merged.  
 If you are familiar with GitHub (and Git), branching and opening a pull request
 or an issue... then you should be able to start contributing right away.
 
