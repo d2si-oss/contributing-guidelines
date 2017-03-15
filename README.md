@@ -16,7 +16,7 @@ or an issue... then you should be able to start contributing right away.
 - apart from a few identified exceptions, material must be licensed under the
 [ISC license](https://opensource.org/licenses/isc-license.txt)
 
-D2SI staff should also we aware of
+D2SI staff should also be aware of
 [additional guidelines](#additional-guidelines-for-d2si-staff).
 
 ## Table of contents
