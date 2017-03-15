@@ -172,7 +172,7 @@ Note that status checks (Travis etc.) are not a requirement.
 
 4. Go to **Settings** and uncheck the **Wikis** box
 
-5. Go to **Collaborators & teams** tab then:
+5. Go to the **Collaborators & teams** tab then:
    * Add the core-team to the **Teams** list and give it **Write** access
    * Add the project submitter username to the **Collaborators** list and give
      him/her **Write** access (even if the submitter is already a member/owner
@@ -191,6 +191,8 @@ Note that status checks (Travis etc.) are not a requirement.
 
 1. [Fork](https://help.github.com/articles/fork-a-repo) the repository
 
-2. Go to **Collaborators & teams** tab then:
+2. Uncheck the **Wikis** box
+
+3. Go to the **Collaborators & teams** tab then:
    * Add the core-team to the **Teams** list and give it **Write** access
    * Make sure the **Collaborators** list is empty
