@@ -16,7 +16,7 @@ or an issue... then you should be able to start contributing right away.
 - apart from a few identified exceptions, material must be licensed under the
 [ISC license](https://opensource.org/licenses/isc-license.txt)
 
-D2SI consultants and d2si-oss members must also comply with
+D2SI staff should also we aware of
 [additional guidelines](#additional-guidelines-for-d2si-staff).
 
 ## Table of contents
@@ -30,9 +30,11 @@ D2SI consultants and d2si-oss members must also comply with
     * [Syncing a fork with its upstream](#syncing-a-fork-with-its-upstream)
 
   * [Additional guidelines for D2SI staff](#additional-guidelines-for-d2si-staff)
+    * [The d2si-oss Core Team](#the-d2si-core-team)
     * [Organization members](#organization-members)
     * [Organization owners](#organization-owners)
       * [Creating a new repository](#creating-a-new-repository)
+      * [Forking an upstream repository](#forking-an-upstream-repository)
 
 ## Coding style
 
@@ -136,10 +138,14 @@ organisation owners to create a repository which he will be the owner and
 responsible of the contributing workflow like answering issues, reviewing and
 merging pull requests, etc.
 
+### The d2si-oss Core Team
+
+By default, members of the core-team watch and have admin rights over all
+projects and hence can handle the global contributions workflow.
+
 ### Organization members
 
-Organization members have admin rights over all projects and hence can handle
-the global contributions workflow.
+There won't be any organization members besides the owners.
 
 ### Organization owners
 
@@ -156,9 +162,9 @@ Note that status checks (Travis etc.) are not a requirement.
   [d2si-oss organization](https://github.com/d2si-oss)
 
 2. Click on [**New**] then:
-  * Make sure the **Owner** is set to d2si-oss
-  * Give it a meaningful **Repository name** and **Description**
-  * Check the **Initialize this repository with a README** box and click on
+   * Make sure the **Owner** is set to d2si-oss
+   * Give it a meaningful **Repository name** and **Description**
+   * Check the **Initialize this repository with a README** box and click on
     [**Create repository**]
 
 3. Click on **Add topics** and add a few descriptive tags then click on
@@ -166,9 +172,11 @@ Note that status checks (Travis etc.) are not a requirement.
 
 4. Go to **Settings** and uncheck the **Wikis** box
 
-5. Go to **Collaborators & teams** tab and add the project submitter username to
-   the **Collaborators** list (even if the submitter is an organization
-   owner/member)
+5. Go to **Collaborators & teams** tab then:
+   * Add the core-team to the **Teams** list and give it **Write** access
+   * Add the project submitter username to the **Collaborators** list and give
+     him/her **Write** access (even if the submitter is already a member/owner
+     of the d2si-oss organization or the core team)
 
 6. Go to the **Branches** tab and select **master** under the **Protected
    branches** section
@@ -178,3 +186,11 @@ Note that status checks (Travis etc.) are not a requirement.
 
 8. Add the default [LICENSE](templates/LICENSE) and
    [CONTRIBUTING.md](templates/CONTRIBUTING.md) files to the repository
+
+#### Forking an upstream repository
+
+1. [Fork](https://help.github.com/articles/fork-a-repo) the repository
+
+2. Go to **Collaborators & teams** tab then:
+   * Add the core-team to the **Teams** list and give it **Write** access
+   * Make sure the **Collaborators** list is empty
