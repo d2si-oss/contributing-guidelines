@@ -145,7 +145,10 @@ projects and hence can handle the global contributions workflow.
 
 ### Organization members
 
-There won't be any organization members besides the owners.
+There won't be any organization members besides the owners and members of the
+core team and the default configuration (right etc.) will not be modified.  
+That also means that if a user leaves the core team, he must be removed from the
+organization members list.
 
 ### Organization owners
 
@@ -176,7 +179,8 @@ Note that status checks (Travis etc.) are not a requirement.
    * Add the core-team to the **Teams** list and give it **Write** access
    * Add the project submitter username to the **Collaborators** list and give
      him/her **Write** access (even if the submitter is already a member/owner
-     of the d2si-oss organization or the core team)
+     of the d2si-oss organization or the core team because he may leave the orga
+     at some point)
 
 6. Go to the **Branches** tab and select **master** under the **Protected
    branches** section
