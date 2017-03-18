@@ -30,7 +30,7 @@ D2SI staff should also be aware of
     * [Syncing a fork with its upstream](#syncing-a-fork-with-its-upstream)
 
   * [Additional guidelines for D2SI staff](#additional-guidelines-for-d2si-staff)
-    * [The d2si-oss Core Team](#the-d2si-core-team)
+    * [The d2si-oss core team](#the-d2si-core-team)
     * [Organization members](#organization-members)
     * [Organization owners](#organization-owners)
       * [Creating a new repository](#creating-a-new-repository)
@@ -138,9 +138,9 @@ organisation owners to create a repository which he will be the owner and
 responsible of the contributing workflow like answering issues, reviewing and
 merging pull requests, etc.
 
-### The d2si-oss Core Team
+### The d2si-oss core team
 
-By default, members of the core-team watch and have admin rights over all
+By default, members of the core team watch and have admin rights over all
 projects and hence can handle the global contributions workflow.
 
 ### Organization members
@@ -176,7 +176,7 @@ Note that status checks (Travis etc.) are not a requirement.
 4. Go to **Settings** and uncheck the **Wikis** box
 
 5. Go to the **Collaborators & teams** tab then:
-   * Add the core-team to the **Teams** list and give it **Write** access
+   * Add **core** to the **Teams** list and give it **Write** access
    * Add the project submitter username to the **Collaborators** list and give
      him/her **Write** access (even if the submitter is already a member/owner
      of the d2si-oss organization or the core team because he may leave the orga
@@ -198,5 +198,5 @@ Note that status checks (Travis etc.) are not a requirement.
 2. Uncheck the **Wikis** box
 
 3. Go to the **Collaborators & teams** tab then:
-   * Add the core-team to the **Teams** list and give it **Write** access
+   * Add **core** to the **Teams** list and give it **Write** access
    * Make sure the **Collaborators** list is empty
