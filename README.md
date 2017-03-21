@@ -96,12 +96,16 @@ In a nutshell:
    git checkout -b ${TOPIC_BRANCH}
    ```
 
-3. Commit the changes in logical and incremental chunks.
-   Refer to these
-   [git commit message guidelines](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
-   and use
+3. Commit the changes in logical and incremental chunks and use
    [interactive rebase](https://help.github.com/articles/about-git-rebase)
-   when needed.
+   when needed.  
+   In your
+   [commit messages](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html),
+   make sure to:
+   * use the present tense
+   * use the imperative mood
+   * limit the first line to 72 characters
+   * reference any associated issues and/or PRs
 
    ```bash
    git commit -am 'Add new feature...'
