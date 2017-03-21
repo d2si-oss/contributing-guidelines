@@ -225,19 +225,15 @@ Note that status checks (Travis etc.) are not a requirement.
 
 ##### Naming conventions
 
-There are 4 main types of repositories:
+There are multiple types of repositories.
 
-  1. Wrapped up solutions to a particular problem
-    * demo-tech{,-subtech}-name
-      * e.g. **demo-aws-lambda-foobar**
-  2. Generic reusable recipes
-    * tech-type
-      * e.g. **ansible-roles**
-  3. Organizational repos
-    * no special rule (other than being self-explanatory)
-      * e.g. **contributing-guidelines**
-  4. Forked repositories
-    * nothing to do
+| Type                     | Convention                | Example                 |
+|--------------------------|---------------------------|-------------------------|
+| wrapped up solution      | demo-tech{,-subtech}-name | demo-aws-lambda-foobar  |
+| generic reusable recipes | tech-type                 | ansible-roles           |
+| software                 | software name             | superduperutility       |
+| organizational repo      | self-explanatory          | contributing-guidelines |
+| forked repositories      | none                      | terraform               |
 
 #### Forking an upstream repository
 
