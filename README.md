@@ -178,7 +178,8 @@ projects and hence can handle the global contributions workflow.
 There won't be any organization members besides the owners and members of the
 core team and the default configuration (right etc.) will not be modified.  
 That also means that if a user leaves the core team, (s)he must be removed from
-the organization members list.
+the organization members list (i.e. orga members and core team members must stay
+in sync).
 
 ### Organization owners
 
