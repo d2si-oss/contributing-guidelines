@@ -1,8 +1,13 @@
 # Contributing guidelines
 Common guidelines for contributing to d2si-oss projects
 
-## TL;DR
+## Foreword
 First off, thank you for taking the time to contribute!  
+It's worth mentioning that the purpose of this document is to provide you with a
+set of general guidelines and not strict rules: nothing is set in stone and we
+welcome contributions about these contributing guidelines as well :-)
+
+## TL;DR
 We want to make contributing straighforward and easy for everyone. As such and
 unless otherwise stated we will use the traditional GitHub fork and pull
 workflow: any commit must be made to a feature/topic branch in a local fork and
