@@ -72,6 +72,7 @@ consider documentation as important as code.
 
 ## Git
 
+Make sure you have a [GitHub account](https://github.com/signup/free).  
 The **master** branch should be considered as the production/deploy branch.
 
 ### Workflow
