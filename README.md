@@ -7,7 +7,9 @@ unless otherwise stated we will use the traditional GitHub fork and pull
 workflow: any commit must be made to a feature/topic branch in a local fork and
 submitted via a pull request before it can can be merged. If you are familiar
 with GitHub (and Git), branching and opening a pull request or an issue... then
-you should be able to start contributing right away.
+you should be able to start contributing right away.  
+It is **strongly advised** to contact the project owner(s) **before** working on
+implementing a new feature or making any kind of large code refactoring.
 
 **Contributors must agree to the following:**
 - material without explicit copyright assignment will be assigned to
