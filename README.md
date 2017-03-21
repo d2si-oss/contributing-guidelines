@@ -227,13 +227,13 @@ Note that status checks (Travis etc.) are not a requirement.
 
 There are multiple types of repositories.
 
-| Type                     | Convention                | Example                 |
-|--------------------------|---------------------------|-------------------------|
-| wrapped up solution      | demo-tech{,-subtech}-name | demo-aws-lambda-foobar  |
-| generic reusable recipes | tech-type                 | ansible-roles           |
-| software                 | software name             | superduperutility       |
-| organizational repo      | self-explanatory          | contributing-guidelines |
-| forked repositories      | none                      | terraform               |
+| Type                     | Convention            | Example                 |
+|--------------------------|-----------------------|-------------------------|
+| wrapped up solution      | demo-vendor-tech-name | demo-aws-lambda-foobar  |
+| generic reusable recipes | tech-type             | ansible-roles           |
+| software                 | software name         | superduperutility       |
+| organizational repo      | self-explanatory      | contributing-guidelines |
+| forked repositories      | none                  | terraform               |
 
 #### Forking an upstream repository
 
