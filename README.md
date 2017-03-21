@@ -21,7 +21,8 @@ implementing a new feature or making any kind of large code refactoring.
 - material without explicit copyright assignment will be assigned to
 [D2SI](http://d2-si.eu)
 - apart from a few identified exceptions, material must be licensed under the
-[ISC license](https://opensource.org/licenses/isc-license.txt)
+[ISC license](https://opensource.org/licenses/isc-license.txt); in all cases, a
+**license is mandatory**.
 
 D2SI staff should also be aware of
 [additional guidelines](#additional-guidelines-for-d2si-staff).
@@ -227,13 +228,13 @@ Note that status checks (Travis etc.) are not a requirement.
 
 There are multiple types of repositories.
 
-| Type                     | Convention            | Example                 |
-|--------------------------|-----------------------|-------------------------|
-| wrapped up solution      | demo-vendor-tech-name | demo-aws-lambda-foobar  |
-| generic reusable recipes | tech-type             | ansible-roles           |
-| software                 | software name         | superduperutility       |
-| organizational repo      | self-explanatory      | contributing-guidelines |
-| forked repositories      | none                  | terraform               |
+| Type                           | Convention            | Example                 |
+|--------------------------------|-----------------------|-------------------------|
+| wrapped up solution (use case) | demo-vendor-tech-name | demo-aws-lambda-foobar  |
+| generic reusable recipes       | tech-type             | ansible-roles           |
+| software                       | software name         | superduperutility       |
+| organizational repo            | self-explanatory      | contributing-guidelines |
+| forked repositories            | none                  | terraform               |
 
 #### Forking an upstream repository
 
