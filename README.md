@@ -43,6 +43,7 @@ D2SI staff should also be aware of
     * [Organization members](#organization-members)
     * [Organization owners](#organization-owners)
       * [Creating a new repository](#creating-a-new-repository)
+        * [Naming conventions](#naming-conventions)
       * [Forking an upstream repository](#forking-an-upstream-repository)
 
 ## Coding style
@@ -197,7 +198,7 @@ Note that status checks (Travis etc.) are not a requirement.
 
 2. Click on [**New**] then:
    * Make sure the **Owner** is set to d2si-oss
-   * Give it a meaningful **Repository name** and **Description**
+   * Give it a meaningful [**Repository name**](#naming-conventions) and **Description**
    * Check the **Initialize this repository with a README** box and click on
     [**Create repository**]
 
@@ -221,6 +222,22 @@ Note that status checks (Travis etc.) are not a requirement.
 
 8. Add the default [LICENSE](templates/LICENSE) and
    [CONTRIBUTING.md](templates/CONTRIBUTING.md) files to the repository
+
+##### Naming conventions
+
+There are 4 main types of repositories:
+
+  1. Wrapped up solutions to a particular problem
+    * demo-tech{,-subtech}-name
+      * e.g. **demo-aws-lambda-foobar**
+  2. Generic reusable recipes
+    * tech-type
+      * e.g. **ansible-roles**
+  3. Organizational repos
+    * no special rule (other than being self-explanatory)
+      * e.g. **contributing-guidelines**
+  4. Forked repositories
+    * nothing to do
 
 #### Forking an upstream repository
 
