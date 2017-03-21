@@ -28,6 +28,8 @@ D2SI staff should also be aware of
     * [Workflow](#git-workflow)
     * [Syncing a fork with its upstream](#syncing-a-fork-with-its-upstream)
 
+  * [Issues](#issues)
+
   * [Additional guidelines for D2SI staff](#additional-guidelines-for-d2si-staff)
     * [The d2si-oss core team](#the-d2si-core-team)
     * [Organization members](#organization-members)
@@ -134,6 +136,11 @@ repository.
 Changes can then be pushed to the remote fork on GitHub.
 See [GitHub Help](https://help.github.com/articles/syncing-a-fork)
 for more information.
+
+## Issues
+
+If you find a bug that you don't know how to fix, please
+[create an issue](https://guides.github.com/features/issues/).
 
 ## Additional guidelines for D2SI staff
 
