@@ -148,7 +148,13 @@ for more information.
 ## Issues
 
 If you find a bug that you don't know how to fix, please
-[create an issue](https://guides.github.com/features/issues/).
+[create an issue](https://guides.github.com/features/issues/):
+* use a clear and descriptive title
+* give a step by step explanation on how to reproduce the problem
+* include as many details as possible, even ones that may seem irrelevant;
+  [gists](https://help.github.com/articles/about-gists/) are a good way to
+  include large amount of context and information
+* describe what was already tried to fix the problem
 
 ## Additional guidelines for D2SI staff
 
