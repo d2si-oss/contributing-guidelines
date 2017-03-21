@@ -3,12 +3,11 @@ Common guidelines for contributing to d2si-oss projects
 
 ## TL;DR
 We want to make contributing straighforward and easy for everyone. As such and
-unless otherwise stated we are following the
-[GitHub flow](https://guides.github.com/introduction/flow): any commit must be
-made to a topic branch in a local fork and submitted via a pull request before
-it can can be merged.  
-If you are familiar with GitHub (and Git), branching and opening a pull request
-or an issue... then you should be able to start contributing right away.
+unless otherwise stated we will use the traditional GitHub fork and pull
+workflow: any commit must be made to a feature/topic branch in a local fork and
+submitted via a pull request before it can can be merged. If you are familiar
+with GitHub (and Git), branching and opening a pull request or an issue... then
+you should be able to start contributing right away.
 
 **Contributors must agree to the following:**
 - material without explicit copyright assignment will be assigned to
@@ -69,9 +68,14 @@ consider documentation as important as code.
 
 ## Git
 
-The **master** branch should be considered as a production|deploy branch.
+The **master** branch should be considered as the production/deploy branch.
 
 ### Workflow
+
+Extensive information can be found in this excellent
+[forking workflow tutorial](https://www.atlassian.com/git/tutorials/comparing-workflows#forking-workflow).
+
+In a nutshell:
 
 1. [Fork](https://help.github.com/articles/fork-a-repo) the repository and clone
    it locally.
