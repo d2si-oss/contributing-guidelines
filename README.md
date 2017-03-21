@@ -106,7 +106,7 @@ In a nutshell:
    * use the present tense
    * use the imperative mood
    * limit the first line to 72 characters
-   * reference any associated issues and/or PRs
+   * reference any associated issues and/or PRs (if applicable)
 
    ```bash
    git commit -am 'Add new feature...'
