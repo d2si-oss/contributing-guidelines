@@ -145,7 +145,7 @@ If you find a bug that you don't know how to fix, please
 ## Additional guidelines for D2SI staff
 
 Anyone from D2SI staff willing to setup a new project can ask one of the
-organisation owners to create a repository which he will be the owner and
+organisation owners to create a repository which (s)he will be the owner and
 responsible of the contributing workflow like answering issues, reviewing and
 merging pull requests, etc.
 
@@ -158,8 +158,8 @@ projects and hence can handle the global contributions workflow.
 
 There won't be any organization members besides the owners and members of the
 core team and the default configuration (right etc.) will not be modified.  
-That also means that if a user leaves the core team, he must be removed from the
-organization members list.
+That also means that if a user leaves the core team, (s)he must be removed from
+the organization members list.
 
 ### Organization owners
 
@@ -190,8 +190,8 @@ Note that status checks (Travis etc.) are not a requirement.
    * Add **core** to the **Teams** list and give it **Write** access
    * Add the project submitter username to the **Collaborators** list and give
      him/her **Write** access (even if the submitter is already a member/owner
-     of the d2si-oss organization or the core team because he may leave the orga
-     at some point)
+     of the d2si-oss organization or the core team because (s)he may leave the
+     orga at some point)
 
 6. Go to the **Branches** tab and select **master** under the **Protected
    branches** section
