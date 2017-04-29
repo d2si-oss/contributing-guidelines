@@ -46,6 +46,7 @@ D2SI staff should also be aware of
       * [Creating a new repository](#creating-a-new-repository)
         * [Naming conventions](#naming-conventions)
       * [Forking an upstream repository](#forking-an-upstream-repository)
+    * [Technical blog](#technical-blog)
 
 ## Coding style
 
@@ -245,3 +246,11 @@ There are multiple types of repositories.
 3. Go to the **Collaborators & teams** tab then:
    * Add **core** to the **Teams** list and give it **Write** access
    * Make sure the **Collaborators** list is empty
+
+### Technical blog
+
+Anyone can submit an article for the [techblog](http://techblog.d2-si.eu/), just
+get in touch with someone from the d2si-oss core team. Refer to the
+[GitHub Help](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/#platform-linux)
+to set up a local version of the Jekyll GitHub Pages to make it easier to test
+changes without the need to publish them first.
