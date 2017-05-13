@@ -219,8 +219,7 @@ Note that status checks (Travis etc.) are not a requirement.
 6. Go to the **Branches** tab and select **master** under the **Protected
    branches** section
 
-7. Check **Protect this branch** and **Require pull request reviews before
-   merging** boxes then [**Save changes**]
+7. Check **Protect this branch** then [**Save changes**]
 
 8. Add the default [LICENSE](templates/LICENSE) and
    [CONTRIBUTING.md](templates/CONTRIBUTING.md) files to the repository
