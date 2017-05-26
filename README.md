@@ -210,9 +210,9 @@ Note that status checks (Travis etc.) are not a requirement.
 4. Go to **Settings** and uncheck the **Wikis** box
 
 5. Go to the **Collaborators & teams** tab then:
-   * Add **core** to the **Teams** list and give it **Write** access
+   * Add **core** to the **Teams** list and give it **Admin** access
    * Add the project submitter username to the **Collaborators** list and give
-     him/her **Write** access (even if the submitter is already a member/owner
+     him/her **Admin** access (even if the submitter is already a member/owner
      of the d2si-oss organization or the core team because (s)he may leave the
      orga at some point)
 
@@ -243,7 +243,7 @@ There are multiple types of repositories.
 2. Uncheck the **Wikis** box
 
 3. Go to the **Collaborators & teams** tab then:
-   * Add **core** to the **Teams** list and give it **Write** access
+   * Add **core** to the **Teams** list and give it **Admin** access
    * Make sure the **Collaborators** list is empty
 
 ### Technical blog
