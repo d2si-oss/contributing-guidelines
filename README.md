@@ -140,16 +140,19 @@ repository.
    git remote add upstream https://github.com/d2si-oss/${REPONAME}
    ```
 
-2. Checkout and pull from the master branch.
+2. Checkout, fetch and merge the upstream master branch to the local one.
 
    ```bash
-   git remote add upstream https://github.com/d2si-oss/${REPONAME}
    git checkout master
    git fetch upstream
    git merge upstream/master
    ```
 
-Changes can then be pushed to the remote fork on GitHub.
+3. Push changes to update to remote forked repository.
+    ```bash
+    git push
+    ```
+
 See [GitHub Help](https://help.github.com/articles/syncing-a-fork)
 for more information.
 
@@ -245,6 +248,10 @@ There are multiple types of repositories.
 3. Go to the **Collaborators & teams** tab then:
    * Add **core** to the **Teams** list and give it **Admin** access
    * Make sure the **Collaborators** list is empty
+
+Regularly keep the forked repository up-to-date with its upstream: see
+[Syncing a fork with its upstream](#syncing-a-fork-with-its-upstream) for
+details.
 
 ### Technical blog
 
