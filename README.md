@@ -129,6 +129,14 @@ In a nutshell:
 5. [Open a Pull Request](https://help.github.com/articles/about-pull-requests)
    with a clear title and description.
 
+6. Once the PR has been merged, the topic branch can be removed from the local
+   fork.
+
+   ```bash
+   git branch -d ${TOPIC_BRANCH}
+   git push origin --delete ${TOPIC_BRANCH}
+   ```
+
 ### Syncing a fork with its upstream
 
 This is used to keep a local fork up-to-date with the original upstream
