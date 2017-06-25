@@ -127,7 +127,7 @@ In a nutshell:
    ```
 
 5. [Open a Pull Request](https://help.github.com/articles/about-pull-requests)
-   with a clear title and description.
+   to the upstream repository with a clear title and description.
 
 6. Once the PR has been merged, the topic branch can be removed from the local
    fork.
