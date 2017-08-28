@@ -145,7 +145,7 @@ repository.
 1. Connect the local to the original upstream repository.
 
    ```bash
-   git remote add upstream https://github.com/d2si-oss/${REPONAME}
+   git remote add upstream https://github.com/${ACCOUNT}/${REPONAME}
    ```
 
 2. Checkout, fetch and merge the upstream master branch to the local one.
